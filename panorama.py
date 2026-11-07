@@ -41,8 +41,8 @@ class ImageMatcher:
 
 
 def main():
-    image_1 = "f1_aus_gp_1.jpg" #input("Enter first image path: ")
-    image_2 = "f1_aus_gp_2.jpg" #input("Enter second image path: ")
+    image_1 = "f1_aus_gp_1.jpg" 
+    image_2 = "f1_aus_gp_2.jpg" 
 
     if not os.path.exists(image_1) or not os.path.exists(image_2):
         raise FileNotFoundError("One or both of the image files not found.")
